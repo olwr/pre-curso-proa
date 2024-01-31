@@ -1,0 +1,42 @@
+:root {
+    box-sizing: border-box;
+    font-size: 16px;
+
+    --font-family: "Open Sans", sans-serif;
+    --font-light: #fff;
+    /* --light-blue: #00B8F2; */
+    --light-blue: #11b8e3;
+    --dark-blue: #1C3380;
+    --yellow: #FFCC00;
+
+    /* background: linear-gradient(50deg, rgba(12,188,231,1) 0%, rgba(4,117,166,1) 100%);*/
+
+    background: linear-gradient(270deg, #0275a5, #11b8e3);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimatateBg 9s ease infinite;
+    -moz-animation: AnimatateBg 9s ease infinite;
+    -o-animation: AnimatateBg 9s ease infinite;
+    animation: AnimatateBg 9s ease infinite;
+}
+
+@-webkit-keyframes AnimatateBg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimatateBg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimatateBg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimatateBg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
