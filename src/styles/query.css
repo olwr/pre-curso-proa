@@ -1,8 +1,4 @@
 @media screen and (width < 768px) {
-    body {
-        /* background-color: green; */
-        /* text-align: left; */
-    }
     
     .logo-title-container {
         margin-top: 75px;
